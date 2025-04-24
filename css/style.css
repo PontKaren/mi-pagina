@@ -60,6 +60,13 @@ body{
     font-weight: 700;
 }
 
+.text{
+    text-align: center;
+    color: var(--negro);
+    font-size: 3rem;
+    
+}
+
 /* Hero */
 
 .hero{
