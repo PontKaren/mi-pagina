@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    padding: 1rem;
+
     font-size: 16px;
     font-family: "PT Sans", serif;
     
@@ -31,7 +31,7 @@ body{
 }
 
 .contenedor{
-    max-width: 120rem;
+    width: 120rem;
     margin: 0 auto;
 }
 
@@ -42,11 +42,13 @@ body{
 
 .nav-principal{
     display:flex;
+    
 }
+   
 
 .nav-principal *{
     display: block;
-    text-align: center;
+    text-align: justify;
     color: var(--negro);
     text-decoration: none;
     font-size: 2rem;
@@ -63,19 +65,18 @@ body{
 .text{
     text-align: center;
     color: var(--negro);
-    font-size: 3rem;
-    
+    font-size: 2rem;
 }
 
 /* Hero */
 
 .hero{
-    background-color: var(--secundarioclaro);
-
+    background-color: var(--primarioclaro);
+    text-align: center;
 }
 
 .content-hero{
-    background-color:antiquewhite;
+    background-color:rgb(255, 214, 241);
 }
 
 /* Global */ 
