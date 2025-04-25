@@ -31,7 +31,7 @@ body{
 }
 
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -91,3 +91,12 @@ body{
     border-radius: 2rem;
 }
 
+@media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header, main, footer {
+      padding: 10px;
+    }
+}
