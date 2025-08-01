@@ -1,22 +1,23 @@
 :root{
-    --primario: #fd2377;
-    --secundario: #22c4c4;
-    --primarioclaro: #fd9bc0;
+    --primario: #D8A7B1;
+    --secundario: #b05c72;
+    --primarioclaro: #e9b9c9;
     --secundarioclaro: #71f5aa;
     --negro: #212121;
-    --blanco: #ffffff;
+    --blanco: #FAF9F6;
 }
 
 html{
     font-size: 62,5%;
 }
 
+
 body{
 
     font-size: 16px;
     font-family: "PT Sans", serif;
     
-    background-image: linear-gradient(to top, var(--secundario) 0%, var(--blanco) 100%);
+    background-image: (var(--blanco));
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
