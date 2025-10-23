@@ -1,0 +1,38 @@
+// _base.scss
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $fuente-principal;
+  background-color: $color-fondo;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  color: $color-texto;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.8rem;
+  color: $color-primario;
+}
+
+.text {
+  text-align: center;
+  color: $color-texto;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header, main, footer {
+    padding: 10px;
+  }
+}
