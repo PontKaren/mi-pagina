@@ -1,0 +1,37 @@
+{
+  "name": "aprendiendo",
+  "version": "1.0.0",
+  "description": "aprendiendo sass y gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PontKaren/mi-pagina.git"
+  },
+  "keywords": [
+    "SASS",
+    "gulp",
+    "node",
+    "npm"
+  ],
+  "author": "Karen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PontKaren/mi-pagina/issues"
+  },
+  "homepage": "https://github.com/PontKaren/mi-pagina#readme",
+  "dependencies": {
+    "gulp-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gulp": "^5.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.91.0"
+  }
+}
